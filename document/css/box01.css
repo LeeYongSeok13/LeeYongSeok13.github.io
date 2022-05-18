@@ -1,0 +1,43 @@
+body {
+    margin: 0 0 0 0;
+    /* margin이 0 0 0 0 */
+}
+
+h1 {
+    color: red;
+    /* h1의 색깔이 빨간색*/
+}
+
+.box00 {
+    width: 1200px;
+    /* 넓이가 1200px */
+    margin: 0 auto;
+    /* margin이 상하 0 좌우 auto */
+    background: #333;
+    /* 배경색이 #333 */
+    color: #fff;
+    /* 색깔이 #fff */
+}
+
+.box01 {
+    width: 50%;
+    /* 넓이가 전체의 50% */
+    background: #f00;
+    /* 배경색이 #f00 */
+}
+
+.box02 {
+    margin-left: 100px;
+    /* 왼쪽 margin이 100px */
+    width: 100%;
+    /* 넓이가 전체의 100% */
+    background: #ff0;
+    /* 배경색이 #ff0 */
+}
+
+.box03 {
+    margin-left: 100px;
+    /* 왼쪽 margin이 100px */
+    background: #0f0;
+    /* 배경색이 #0f0 */
+}

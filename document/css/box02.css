@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    /* 지정한 CSS width 및 heigth를 전체에 적용 border, padding margin값을 합산 */
+}
+
+.box {
+    margin: 30px auto;
+    /* margin이 상하 30px, 좌우 auto */
+    width: 600px;
+    /* 넓이가 600px */
+    border: 1px solid #333;
+    /* border가 1px 테두리가 solid로 색은 #333 */
+}
+
+.box01 {
+    margin: 40px auto;
+    /* margin이 상하 40px, 좌우 auto */
+    background: #ff0;
+    /* 배경색이 #ff0 */
+}
+
+.box02 {
+    padding: 30px;
+    /* padding이 상하좌우 30px */
+    background: #f00;
+    /* 배경색이 #f00 */
+}
+
+.box03 {
+    /* inline 인 strong tag를 박스로 바꿈 */
+    display: block;
+    margin: 100px auto;
+    /* margin이 상하 100px, 좌우 auto */
+    padding: 100px 0;
+    /* padding이 상하 100px, 좌우 0 */
+}

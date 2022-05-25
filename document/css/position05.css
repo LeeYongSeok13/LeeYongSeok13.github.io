@@ -1,0 +1,78 @@
+.smile {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.smile .smileface li:nth-child(1) {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.smile.on li:nth-child(1) {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    transform: rotate(-135deg);
+}
+
+.smile .smileface li:nth-child(2) {
+    position: absolute;
+    top: 125px;
+    right: 125px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.smile.on li:nth-child(2) {
+    position: absolute;
+    top: 125px;
+    right: 125px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    transform: rotate(-135deg);
+}
+
+.smile .smileface li:nth-child(3) {
+    position: absolute;
+    top: 400px;
+    left: 225.5px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.smile.on li:nth-child(3) {
+    position: absolute;
+    top: 400px;
+    left: 225.5px;
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    transform: rotate(-135deg);
+}

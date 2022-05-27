@@ -31,6 +31,7 @@ body {
 }
 
 img {
+    max-width: 100%;
     vertical-align: middle;
     /* 영역에서 중간에 배치 */
 }

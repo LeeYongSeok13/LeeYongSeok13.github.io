@@ -1,11 +1,8 @@
-.Wrap {
-    min-width: 1900px;
-}
-
 .main_visual {
     position: relative;
     height: 600px;
     background: #333;
+    transition: 1s;
 }
 
 .footer {
